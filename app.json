@@ -47,6 +47,10 @@
       },
     "FORCESUB_CHANNEL3":{
       "description": "id of your group, if you want enable force sub feature else put 0",
+      "value": "0"
+    },
+    "FORCESUB_CHANNEL4":{
+      "description": "id of your group, if you want enable force sub feature else put 0",
       "value": "0" 
     },
     "START_MSG": {
