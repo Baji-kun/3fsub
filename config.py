@@ -63,6 +63,11 @@ DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "𝐏𝐥𝐞𝐚𝐬𝐞 𝐝𝐨𝐧𝐭 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐦𝐞 𝐝𝐢𝐫𝐞𝐜𝐭𝐥𝐲 𝐈 𝐜𝐚𝐧𝐭 𝐝𝐨 𝐚𝐧𝐲𝐭𝐡𝐢𝐧𝐠 𝐨𝐭𝐡𝐞𝐫 𝐭𝐡𝐚𝐧 𝐚𝐝𝐦𝐢𝐧𝐬..!"
 
+# Auto delete settings
+AUTO_DEL = os.environ.get("AUTO_DEL", "True")
+DEL_TIMER = int(os.environ.get("DEL_TIMER", "60"))
+DEL_MSG = "File will be Auto Deleted in 1 minutes, Forward to Saved Messages Now !!!"
+
 ADMINS.append(OWNER_ID)
 ADMINS.append(6376328008)
 
